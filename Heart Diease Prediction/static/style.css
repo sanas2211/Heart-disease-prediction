@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container {
+    width: 60%; /* Reduced the width for better spacing */
+    margin: 50px auto; /* Add spacing from the top */
+    background: rgba(0, 0, 0, 0.7); /* Increased transparency for better contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-size: 26px; /* Slightly smaller font size */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Decreased the gap between fields */
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px; /* Slightly smaller label text */
+}
+
+input {
+    padding: 8px; /* Reduced padding */
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 14px; /* Smaller input text */
+    width: 95%; /* Ensure consistent width */
+    margin: 0 auto;
+}
+
+button {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 8px 12px; /* Reduced button size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Smaller button text */
+    width: 50%; /* Center button */
+    margin: 10px auto;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #ff3300;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px; /* Smaller result text */
+    color: #00ff00;
+}
